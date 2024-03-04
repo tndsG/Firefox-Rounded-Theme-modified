@@ -29,9 +29,19 @@ Quote: https://userChrome.org | https://github.com/topics/userchrome
 
 #urlbar-background,#urlbar { /*makes url bar rounded*/
 
-  border-radius: 15px !important;
+  border-radius: 10px !important;
   box-shadow: 0 0 3px 3px rgba(0,0,0,0.2);
-  margin: 1px 1px 1px 1px;
+  margin: 0px 0px 0px 0px;
+}
+/* Add border effect to URL bar */
+#urlbar {
+  border: 2px solid transparent !important;
+  transition: border-color 0.3s ease;
+}
+
+/* Change border color on hover */
+#urlbar:hover {
+  border-color: rgba(204, 204, 204, 0.8) !important; /* Adjust color as needed */
 }
 .tab-icon-overlay { /*removes audio playing in tab icon*/
   stroke: unset !important;
