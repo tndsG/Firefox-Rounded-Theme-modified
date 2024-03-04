@@ -3,7 +3,7 @@
 <ul><li>Firefox Rounded Corners</li>
 
 
-![image](https://github.com/tndsG/Firefox-Rounded-Theme-modified/chrome/ss.png)
+![image](https://github.com/tndsG/Firefox-Rounded-Theme-modified/blob/main/chrome/ss.png))
 
 
 
